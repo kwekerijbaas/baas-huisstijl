@@ -79,6 +79,15 @@ Helder, duidelijk en no-nonsense: optimistisch, speels, kleurrijk, creatief maar
 - Handen die met pot of plant bezig zijn mogen; bij Ready to Enjoy altijd potten uit de Ready to Enjoy-collectie.
 - Smaakgroep: primair Ellen, ook Linn, Marthe en Sophie.
 
+## Certificeringen
+
+Kwekerij Baas is MPS-GAP en MPS-SQ gecertificeerd (MPS-nummer **682124**) en voert het GGN-label (GLOBALG.A.P.) met GGN **4049929459717**. Logo's en regels: `certificering/README.md`. Certificeringen staan in de styleguide ook als merkbelofte: *MPS A+, GAP en Socially Qualified*.
+
+## Wat níet in deze repo staat (bewust)
+
+- Oude huisstijl 2019–2020 (logo's/pay-offs in .ai, NL/EN/DE/FR) in *Verkoop › Marketing en communicatie › Huisstijl*: vervangen door huisstijl 2024.
+- Grote werkbestanden (InDesign, gevelontwerpen .ai, Greenpages-fotobank, kleding, Happy Mix-overzicht): staan op SharePoint Marketing › Huisstijl 2024.
+
 ## Open punten in styleguide 2024.1
 
 Tone of voice (aanspreekvorm), merkregistratie Blooming Joy®, social media, nieuwsbrief, e-mailhandtekening, website/URL-vermelding, beursstand en film/video staan in de PDF nog als "Invullen door Baas".
@@ -93,6 +102,10 @@ Tone of voice (aanspreekvorm), merkregistratie Blooming Joy®, social media, nie
 | `tokens.css` | Dezelfde waarden als CSS-variabelen + `@font-face` voor Ubuntu, direct bruikbaar in web/apps |
 | `fonts/` | Ubuntu Regular, Medium, Bold (+ italics) en licentie `UFL.txt` |
 | `assets/` | Logo's, iconen, beeldmerken en dessin (PNG) |
-| `styleguide/` | Styleguide 2024.1 (PDF) en werkbestand logokleuren |
+| `styleguide/` | Styleguide 2024.1 (PDF, **leidende huisstijlgids**) en werkbestand logokleuren |
+| `certificering/` | MPS-vignet (682124), GGN-label (2024 + ouder Floriculture-label), recyclesymbool 5 PP |
+| `qr-codes/` | QR-codes Blooming Joy® 2025 (Ready to Enjoy, Ready to Plant, Home) |
+| `email-handtekening/` | Afbeeldingen voor de e-mailhandtekening |
+| `kernwaarden/` | Waardenposter NL/EN |
 
 Bron: SharePoint Marketing › General › Huisstijl 2024 (overgenomen 22-09-2026).
