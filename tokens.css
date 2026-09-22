@@ -1,0 +1,46 @@
+/* Kwekerij Baas — huisstijl 2024.1 — gegenereerd uit tokens.json */
+@font-face { font-family: 'Ubuntu'; src: url('fonts/Ubuntu-Regular.ttf') format('truetype'); font-weight: 400; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Ubuntu'; src: url('fonts/Ubuntu-Italic.ttf') format('truetype'); font-weight: 400; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Ubuntu'; src: url('fonts/Ubuntu-Medium.ttf') format('truetype'); font-weight: 500; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Ubuntu'; src: url('fonts/Ubuntu-MediumItalic.ttf') format('truetype'); font-weight: 500; font-style: italic; font-display: swap; }
+@font-face { font-family: 'Ubuntu'; src: url('fonts/Ubuntu-Bold.ttf') format('truetype'); font-weight: 700; font-style: normal; font-display: swap; }
+@font-face { font-family: 'Ubuntu'; src: url('fonts/Ubuntu-BoldItalic.ttf') format('truetype'); font-weight: 700; font-style: italic; font-display: swap; }
+:root {
+  --brand-magenta: #d6006e;
+  --brand-groen: #cddb00;
+  --brand-wit: #ffffff;
+  --lime-groen: #b7bf10;
+  --licht-groen: #dfe859;
+  --donker-groen: #008522;
+  --zwart: #000000;
+  --collectie-licht-roze: #eb6fbd;
+  --collectie-paars: #6f5091;
+  --collectie-magenta: var(--brand-magenta);
+  --collectie-donker-violet: #8c4799;
+  --collectie-blauw: #6068b2;
+  --collectie-geel: #f6be00;
+  --collectie-violet: #b580d1;
+  --collectie-lime-groen: var(--lime-groen);
+  --collectie-zalm: #f2827f;
+  --collectie-oranje: #ff6a14;
+  --collectie-rood: #c8102e;
+  --licht-terracotta: #e59e6d;
+  --mums-oranje: #e04f39;
+  --mums-rubin-red: #aa0061;
+  --mums-roze: #d5419e;
+  --mums-diep-rood: #ba0c2f;
+  --font-sans: "Ubuntu", "Mulish", system-ui, sans-serif;
+  --font-office: "Mulish", "Ubuntu", system-ui, sans-serif;
+  --font-beeldmerk: "Hundra", "Ubuntu", sans-serif;
+  --logo-vrije-ruimte: 15%;
+  --min-tekst-druk: 8px;
+  --min-tekst-digitaal: 15px;
+}
+.heading { font-family: var(--font-sans); font-size: 40px; line-height: 1.1; font-weight: 500; letter-spacing: 0.025em; text-transform: uppercase; }
+.intro { font-family: var(--font-sans); font-size: 19px; line-height: 27px; font-weight: 500; }
+.tussenkop { font-family: var(--font-sans); font-size: 19px; line-height: 24px; font-weight: 500; }
+.body { font-family: var(--font-sans); font-size: 13px; line-height: 19px; font-weight: 400; }
+.body-digitaal { font-family: var(--font-sans); font-size: 15px; line-height: 21px; font-weight: 400; }
+.pantone-info { font-family: var(--font-sans); font-size: 12px; line-height: 19px; font-weight: 500; }
+.bijschrift { font-family: var(--font-sans); font-size: 11px; line-height: 16px; font-weight: 500; }
+.beeldmerk { font-family: var(--font-beeldmerk); font-size: 48px; line-height: 1; font-weight: 400; text-transform: uppercase; }

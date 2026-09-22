@@ -11,8 +11,18 @@ Volg de centrale richtlijnen in @docs/ai-coding-guidelines.md.
 - Werk in kleine, testbare stappen; commit per logische eenheid.
 - Sluit elke taak af met: wat is gedaan, wat is niet gedaan, vervolgvoorstel.
 
-## App-specifieke aanvullingen
+## App-specifieke aanvullingen — huisstijl
 
-<!-- Voeg hier app-specifieke instructies toe die niet in de centrale richtlijnen passen.
-     Bijvoorbeeld: "Deze app integreert met BC tabel X via view gold.vw_Y; lees nooit
-     direct uit silver." Verwijder deze sectie als die leeg blijft. -->
+Deze repository is de bron van waarheid voor de huisstijl van Kwekerij Baas (styleguide versie 2024.1).
+
+Bij elke uiting (document, presentatie, website, mail, label, app-UI) voor Kwekerij Baas:
+
+1. Lees eerst `README.md` (brand book) en gebruik de exacte waarden uit `tokens.json` / `tokens.css`. Verzin geen kleuren of fonts.
+2. **Kleuren:** logokleuren `brand-magenta` #D6006E, `brand-groen` #CDDB00, wit. Steunkleuren `lime-groen` #B7BF10 (PMS 583) en `donker-groen` #008522. Collectiekleuren alleen voor Ready to Plant / Ready to Enjoy-verpakkingen.
+3. **Contrast:** geen lopende tekst in wit op `brand-groen` of `lime-groen` (te laag contrast). Magenta op wit en wit op donker-groen zijn wel leesbaar.
+4. **Font:** Ubuntu (bestanden in `fonts/`); in Word/PowerPoint/e-mail Mulish als alternatief. Hundra alleen voor beeldmerken, altijd in kapitalen. Minimaal 6 pt druk / 11 pt digitaal.
+5. **Logo:** gebruik altijd de originele bestanden uit `assets/logos/` — nooit namaken, vervormen of hertekenen. Voorkeur variant 01 op wit; op groen variant 02 (dia positief). 15% vrije ruimte.
+6. **Taal:** extern Engels, intern Nederlands; positief en vrolijk. Schrijf altijd **Blooming Joy®** met ®. Pay-off: BLOOMING JOY FOR ALL.
+7. **Fotografie:** product altijd centraal, helder en natuurlijk licht, rechte horizon.
+
+De volledige styleguide staat in `styleguide/BAAS-styleguide-2024-1.pdf`.
