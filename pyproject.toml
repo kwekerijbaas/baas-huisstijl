@@ -1,0 +1,41 @@
+[project]
+name = "kb-domein-applicatie"
+version = "0.1.0"
+description = "Korte beschrijving — pas aan."
+requires-python = ">=3.12"
+authors = [{ name = "Kwekerij Baas" }]
+license = { text = "Proprietary" }
+
+dependencies = [
+    # Pin versies bij MVP en productie.
+    # "fastapi==0.115.0",
+    # "azure-identity==1.19.0",
+    # "azure-keyvault-secrets==4.9.0",
+]
+
+[project.optional-dependencies]
+dev = [
+    "ruff==0.7.4",
+    "black==24.10.0",
+    "pytest==8.3.3",
+    "pytest-cov==6.0.0",
+]
+
+[tool.ruff]
+line-length = 100
+target-version = "py312"
+
+[tool.ruff.lint]
+select = ["E", "F", "I", "B", "UP", "S", "N"]
+ignore = ["S101"]  # assert toegestaan in tests
+
+[tool.ruff.lint.per-file-ignores]
+"tests/*" = ["S"]
+
+[tool.black]
+line-length = 100
+target-version = ["py312"]
+
+[tool.pytest.ini_options]
+testpaths = ["tests"]
+addopts = "--strict-markers"
